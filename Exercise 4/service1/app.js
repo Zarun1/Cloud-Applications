@@ -3,7 +3,7 @@ const axios = require('axios').default;
 
 http.createServer(function (request, response) {
   let options = {
-      host: 'localhost',
+      host: 'service2',
       port: 8893,
       method: 'GET',
       path: '/'

@@ -6,3 +6,5 @@ services:
       - "8001:8001"
   service2:
     build: ./service2
+    expose:
+      - "8893"
