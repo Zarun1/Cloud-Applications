@@ -1,5 +1,4 @@
 const http = require('http');
-const axios = require('axios').default;
 
 http.createServer(function (request, response) {
   let options = {
