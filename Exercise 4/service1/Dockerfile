@@ -1,0 +1,11 @@
+FROM node:10
+
+WORKDIR /app
+
+COPY . /app
+
+RUN npm install
+
+EXPOSE 8001
+
+CMD [ "node", "app.js" ]
